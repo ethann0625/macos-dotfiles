@@ -1,0 +1,43 @@
+# ~/.skhdrc
+
+# Open Alacritty
+alt + shift - return : open -n /Applications/Alacritty.app
+# Close focused window
+alt + shift - c : yabai -m window --close
+
+# Yabai layout modes
+alt - m : yabai -m space --layout stack
+alt - t : yabai -m space --layout bsp 
+alt - f : yabai -m space --layout float
+
+# Swap focused window with master (first window in tree)
+alt - space : yabai -m window --swap first || yabai -m window --swap next
+alt - return : yabai -m window --swap first || yabai -m window --swap next
+
+# Swap focus
+# alt - h : yabai -m window --focus west
+# alt - j : yabai -m window --focus south
+# alt - k : yabai -m window --focus north
+# alt - l : yabai -m window --focus east
+alt - h : yabai -m window --focus west  || yabai -m window --focus prev || yabai -m window --focus last
+alt - l : yabai -m window --focus east  || yabai -m window --focus next || yabai -m window --focus first
+alt - k : yabai -m window --focus north || yabai -m window --focus prev || yabai -m window --focus last
+alt - j : yabai -m window --focus south || yabai -m window --focus next || yabai -m window --focus first
+
+# Switch to workspace 1-5
+alt - 1 : yabai -m space --focus 1
+alt - 2 : yabai -m space --focus 2
+alt - 3 : yabai -m space --focus 3
+alt - 4 : yabai -m space --focus 4
+alt - 5 : yabai -m space --focus 5
+
+# Throw focused window to workspace 1-5
+alt + shift - 1 : yabai -m window --space 1
+alt + shift - 2 : yabai -m window --space 2
+alt + shift - 3 : yabai -m window --space 3
+alt + shift - 4 : yabai -m window --space 4
+alt + shift - 5 : yabai -m window --space 5
+
+# Resize Master
+alt + shift - h : yabai -m window first --resize right:-15:0
+alt + shift - l : yabai -m window first --resize right:15:0
