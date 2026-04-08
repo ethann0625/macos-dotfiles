@@ -41,3 +41,6 @@ alt + shift - 5 : yabai -m window --space 5
 # Resize Master
 alt + shift - h : yabai -m window first --resize right:-15:0
 alt + shift - l : yabai -m window first --resize right:15:0
+
+# Gaps
+alt + shift - 0x18 : $HOME/newdots/yabai_gap_toggle.sh

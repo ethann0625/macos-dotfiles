@@ -38,12 +38,12 @@ yabai -m config mouse_drop_action    swap
 
 # ── Window rules ──────────────────────────────────────────────────────────────
 yabai -m rule --add app="Firefox" title="Picture-in-Picture" manage=off
-
-# Float preference panes and other non-tileable system windows
 yabai -m rule --add app="System Preferences"   manage=off
 yabai -m rule --add app="System Settings"      manage=off
 yabai -m rule --add app="Calculator"           manage=off
 yabai -m rule --add app="Archive Utility"      manage=off
+yabai -m rule --add app="java" manage=off
+yabai -m rule --add app="Finder" manage=off
 
 # ── Signals ───────────────────────────────────────────────────────────────────
 # Reload sketchybar / polybar equivalent on space/window changes
