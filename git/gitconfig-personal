@@ -1,0 +1,2 @@
+[user]
+    signingKey = ~/.ssh/personal-git.pub

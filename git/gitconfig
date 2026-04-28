@@ -1,0 +1,6 @@
+[include]
+  path = ~/.gitconfig-common
+[includeIf "gitdir:~/cpsc/"]
+  path = ~/.gitconfig-school
+[includeIf "gitdir:~/programming/"]
+  path = ~/.gitconfig-personal

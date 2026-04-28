@@ -1,0 +1,3 @@
+[user]
+    email = ethan.ng1@ucalgary.ca
+    signingKey = ~/.ssh/ucalgary_gitlab.pub
