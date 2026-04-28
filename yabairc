@@ -37,13 +37,17 @@ yabai -m config mouse_action2        resize       # cmd + right-drag → resizem
 yabai -m config mouse_drop_action    swap
 
 # ── Window rules ──────────────────────────────────────────────────────────────
-yabai -m rule --add app="Firefox" title="Picture-in-Picture" manage=off
-yabai -m rule --add app="System Preferences"   manage=off
-yabai -m rule --add app="System Settings"      manage=off
-yabai -m rule --add app="Calculator"           manage=off
-yabai -m rule --add app="Archive Utility"      manage=off
-yabai -m rule --add app="java" manage=off
-yabai -m rule --add app="Finder" manage=off
+yabai -m rule --add app="Firefox" title="Picture-in-Picture"  manage=off
+yabai -m rule --add app="System Preferences"    manage=off
+yabai -m rule --add app="System Settings"       manage=off
+yabai -m rule --add app="Calculator"            manage=off
+yabai -m rule --add app="Archive Utility"       manage=off
+yabai -m rule --add app="java"  manage=off
+yabai -m rule --add app="Finder"  manage=off
+yabai -m rule --add app="Clock"  manage=off
+yabai -m rule --add app="Scene Builder"  manage=off
+yabai -m rule --add app="^Anki$" title="Add"  manage=off
+yabai -m rule --add app="^Anki$" title="Browse"  manage=off
 
 # ── Signals ───────────────────────────────────────────────────────────────────
 # Reload sketchybar / polybar equivalent on space/window changes
