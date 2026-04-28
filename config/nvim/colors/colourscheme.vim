@@ -58,7 +58,7 @@ hi Statement guifg=#ae75eb guibg=NONE
 hi Operator gui=bold guifg=#4D5e6c guibg=NONE
 hi cssAttr guifg=#ff66a3 guibg=NONE
 
-hi Pmenu guifg=#fafafa guibg=#101115
+hi Pmenu guifg=#fafafa guibg=#0a0b0bc
 hi SignColumn guibg=#0a0b0c
 hi Title guifg=#fafafa
 hi LineNr guifg=#4D5e6c guibg=#0a0b0c
@@ -74,7 +74,7 @@ hi StatusLine gui=bold guibg=#415066 guifg=#4D5e6c
 hi StatusLineNC gui=NONE guibg=#0a0b0c guifg=#0a0b0c
 hi Search guibg=#4D5e6c guifg=#fafafa
 hi VertSplit gui=NONE guifg=#415066 guibg=NONE
-hi Visual gui=NONE guibg=#1f2226
+hi Visual gui=NONE guibg=#2A3442 
 hi ColorColumn guifg=#2A3442 
 hi SpecialKey guifg=#2A3442 guibg=NONE
 hi Folded ctermbg=NONE guibg=NONE guifg=#2A3442
