@@ -19,8 +19,8 @@ setopt AUTO_CD
 bindkey '^L' clear-screen
 
 # completion system
-autoload -Uz compinit
-compinit
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit
 
 # java
 export JAVA_HOME="/usr/local/opt/openjdk"
@@ -30,3 +30,10 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 neofetch
 
+# Created by `pipx` on 2026-04-28 21:21:19
+export PATH="$PATH:/Users/ethan/.local/bin"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
+export PATH="/Library/TeX/texbin:$PATH"

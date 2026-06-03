@@ -19,7 +19,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'rafamadriz/friendly-snippets'
 
-Plug 'mfussenegger/nvim-jdtls'
+Plug 'stevearc/conform.nvim'
 call plug#end()
 
 " lightline
