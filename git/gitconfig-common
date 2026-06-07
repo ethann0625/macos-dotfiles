@@ -1,0 +1,5 @@
+[user]
+    name = Ethan Ng
+    email = ethan@turbocharged.ca
+    signingkey = ~/.ssh/personal-git.pub
+

@@ -4,13 +4,15 @@ require("conform").setup({
         tex = { "latexindent" },
         bib = { "bibtex-tidy" },
         lua = { "stylua" },
+        sh = { "beautysh" },
     },
 
     formatters = {
         latexindent = {
             prepend_args = {
+                "-",
                 "-m",
-                '-y="modifyLineBreaks:textWrapOptions:columns:80"',
+                "-y=modifyLineBreaks:textWrapOptions:columns:80",
             },
         },
 
