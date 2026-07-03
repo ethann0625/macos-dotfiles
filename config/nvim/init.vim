@@ -28,6 +28,11 @@ set laststatus=2
 let g:lightline = {
   \ 'colorscheme' : 'customscheme',
   \ }
+
+let g:lightline.enable = {
+    \ 'statusline': 1,
+    \ 'tabline': 0
+    \ }
 augroup LightlineColorscheme
   autocmd!
   autocmd ColorScheme * if exists('*lightline#colorscheme') |

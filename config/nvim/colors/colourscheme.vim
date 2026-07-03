@@ -10,7 +10,7 @@ hi ErrorMsg guifg=#ff66a3 guibg=NONE
 hi WarningMsg guifg=#e584f0 guibg=NONE
 hi PreProc guifg=#e584f0 guibg=NONE
 hi Exception guifg=#ff66a3 guibg=NONE
-hi Error guifg= #ff66a3 guibg=NONE
+hi Error guifg=#ff66a3 guibg=NONE
 hi DiffDelete guifg=#ff66a3 guibg=NONE
 hi GitGutterDelete guifg=#e584f0 guibg=NONE
 hi GitGutterChangeDelete guifg=#e584f0 guibg=NONE
@@ -64,7 +64,6 @@ hi Title guifg=#fafafa
 hi LineNr guifg=#4D5e6c guibg=#0a0b0c
 hi NonText guifg=#415066 guibg=#0a0b0c
 hi Comment guifg=#415066 gui=italic
-"hi Comment guifg=#4D5e6c  gui=italic
 
 hi SpecialComment guifg=#415066 gui=italic guibg=NONE
 hi CursorLine guibg=#415066
@@ -79,5 +78,5 @@ hi ColorColumn guifg=#2A3442
 hi SpecialKey guifg=#2A3442 guibg=NONE
 hi Folded ctermbg=NONE guibg=NONE guifg=#2A3442
 
-hi TabLineSel guifg=#b1ed82
+hi TabLineSel guifg=#b1ed82 gui=bold
 hi ModeMsg guifg=#fafafa cterm=bold
