@@ -20,6 +20,7 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'rafamadriz/friendly-snippets'
 
 Plug 'stevearc/conform.nvim'
+Plug 'akinsho/bufferline.nvim'
 call plug#end()
 
 " lightline
@@ -60,6 +61,8 @@ autocmd InsertEnter * :set norelativenumber
 autocmd InsertLeave * :set relativenumber
 set tabstop=4 shiftwidth=4 expandtab
 set hlsearch
+
+autocmd FileType javascript,typescript,html,css setlocal tabstop=2 shiftwidth=2 expandtab
 
 "augroup VimtexConfig
 "    autocmd!

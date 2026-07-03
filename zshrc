@@ -34,6 +34,6 @@ neofetch
 export PATH="$PATH:/Users/ethan/.local/bin"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init - zsh)"
+#eval "$(pyenv init - zsh)"
 
 export PATH="/Library/TeX/texbin:$PATH"

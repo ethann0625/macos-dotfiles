@@ -5,6 +5,19 @@ require("conform").setup({
         bib = { "bibtex-tidy" },
         lua = { "stylua" },
         sh = { "beautysh" },
+
+        javascript = { "prettier" },
+        typescript = { "prettier" },
+        javascriptreact = { "prettier" },
+        typescriptreact = { "prettier" },
+        html = { "prettier" },
+        css = { "prettier" },
+        json = { "prettier" },
+        scss = { "prettier" },
+        less = { "prettier" },
+        yaml = { "prettier" },
+        markdown = { "prettier" },
+        graphql = { "prettier" },
     },
 
     formatters = {
@@ -22,6 +35,13 @@ require("conform").setup({
                 "Spaces",
                 "--indent-width",
                 "4",
+            },
+        },
+
+        prettier = {
+            prepend_args = {
+                "--print-width",
+                "100",
             },
         },
     },
