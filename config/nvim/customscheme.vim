@@ -1,8 +1,6 @@
-
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/customscheme.vim
 " Author: EthanN-200321
-" License: There is no license. Take off your clothes
 " =============================================================================
 
 let s:black = '#0a0b0c'
@@ -33,7 +31,7 @@ let s:p.visual.left = [ [ s:bg, s:purple ], [ s:fg, s:grey ] ]
 let s:p.normal.middle = [ [ s:fg, s:bg ] ]
 let s:p.inactive.middle = [ [ s:fg, s:bg ] ]
 let s:p.tabline.left = [ [ s:fg, s:altgrey ] ]
-let s:p.tabline.tabsel = [ [ s:fg, s:altgrey ] ]
+let s:p.tabline.tabsel = [ [ s:green, s:grey ] ]
 let s:p.tabline.middle = [ [ s:fg, s:black ] ]
 let s:p.tabline.right = [ [ s:fg, s:altgrey] ]
 " copy(s:p.normal.right)

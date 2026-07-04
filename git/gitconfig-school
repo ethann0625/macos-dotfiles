@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 [user]
     email = ethan.ng1@ucalgary.ca
     signingKey = ~/.ssh/ucalgary_gitlab.pub
+||||||| 635f498
+=======
+[user]
+    name = Ethan Ng
+    email = ethan.ng1@ucalgary.ca
+    signingkey = ~/.ssh/ucalgary_gitlab.pub
+>>>>>>> nvim

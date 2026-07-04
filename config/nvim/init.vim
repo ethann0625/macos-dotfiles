@@ -19,7 +19,8 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'rafamadriz/friendly-snippets'
 
-Plug 'mfussenegger/nvim-jdtls'
+Plug 'stevearc/conform.nvim'
+Plug 'akinsho/bufferline.nvim'
 call plug#end()
 
 " lightline
@@ -27,6 +28,11 @@ set laststatus=2
 let g:lightline = {
   \ 'colorscheme' : 'customscheme',
   \ }
+
+let g:lightline.enable = {
+    \ 'statusline': 1,
+    \ 'tabline': 0
+    \ }
 augroup LightlineColorscheme
   autocmd!
   autocmd ColorScheme * if exists('*lightline#colorscheme') |
@@ -60,6 +66,8 @@ autocmd InsertEnter * :set norelativenumber
 autocmd InsertLeave * :set relativenumber
 set tabstop=4 shiftwidth=4 expandtab
 set hlsearch
+
+autocmd FileType javascript,typescript,html,css setlocal tabstop=2 shiftwidth=2 expandtab
 
 "augroup VimtexConfig
 "    autocmd!
